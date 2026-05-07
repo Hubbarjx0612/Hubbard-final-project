@@ -14,11 +14,39 @@ main{background-color: rgb(234, 221, 202);
 nav a{color: antiquewhite;
 margin:1rem}
 
+.title{background-image: url(images/title-image.jpg);
+background-size: cover;
+background-position: center;
+padding: 5rem;
+text-align: center;}
+
+.title h1{margin-top:6rem;
+font-family: knewave;
+font-weight: 200;
+
+}
+.title h2{margin-bottom: 0rem;
+font-family: Story Script, sans-serif;
+  text-shadow: 
+    -.3px -.3px 0 #fff,  
+     .3px -.3px 0 #fff,
+    -.3px  .3px 0 #fff,
+     .3px  .3px 0 #fff;
+}
+
+.current{background-color: rgb(161, 0, 0);
+margin: 1rem 8rem;
+padding: .1rem;
+color: antiquewhite;
+text-align: center;}
+
+
 .menu{background-color: rgb(80, 31, 31); color:antiquewhite;
 display: flex;
 align-items: center;
 justify-content: center;
-gap:3rem
+gap:3rem;
+margin: 2rem 4rem
 ;}
 
 h3{text-align: center;}
@@ -45,3 +73,101 @@ justify-content: space-evenly;
 gap: 1rem;}
 
 /*story*/
+ h2{font-family: knewave; text-align: center; font-weight: 100;}
+
+ .story{background-color: rgb(124, 0, 0);
+color: antiquewhite;
+padding: 1rem;
+margin: 2rem 4rem;
+border-radius: 1rem;
+align-content: center;}
+
+.story2{display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 2rem 4rem;
+gap: 2rem;}
+
+.story2red{background-color: rgb(124, 0, 0);
+color: antiquewhite;
+padding: 0 1rem;
+border-radius: 1rem;
+height: 12rem;
+align-content: center;}
+.story2 img{height: 12rem;
+border-radius: 1rem;}
+
+/*merch*/
+.turtle{background-color: rgb(155, 0, 0); color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;  
+width: 10rem;
+height: 11rem;
+padding: .8rem;}
+
+.turtle img{height: 7rem;}
+
+.turtle h4{text-align: center;
+margin: 0;}
+
+.merch{display: flex;
+    flex-wrap: wrap;
+    flex-direction: flex;
+    justify-content: center;
+    margin: 2rem 4rem 0rem 4rem;
+    padding-bottom: 4rem;
+    gap: 2rem;
+align-content: flex-start;}
+
+input[type="number"]{width: 5.5rem; background-color: #fdf7e5;
+  border: 1px solid #24ac92;
+    border-radius: .2rem;}
+
+
+button{width: 8rem; background-color: #ac4d50;  border:none; border-radius: .2rem; color: white; }
+
+/*book us*/
+
+.contact-main{display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-bottom: 3rem;
+padding-top: 3rem;}
+
+.form{background-color: #720000;
+margin: 2rem;
+border-radius: 1rem;
+max-width: 40%;
+padding: 1rem 2rem;
+border-color: #360000;
+border: 1px solid;
+}
+
+input, textarea{
+padding: .5rem;
+margin: .5rem 0;
+border: 1px solid #cb9292;
+border-radius: .4rem;
+background-color: #cb9292;
+}
+label{color: #fdf7e5;}
+
+input[type="submit"]{
+background-color: #ff7171;
+color: #800505;
+border: 1px solid #42431B;
+background-color: #987a7a;
+}
+
+input[type="submit"]:hover{
+background-color: #42431B;
+color: #c70e0e;
+border: 1px solid #9e0202;
+cursor: pointer;}
+
+.form h3, .form p{color: #ffe5e5;
+}
+
+.my-contact a:hover{color: #987a7a;}
