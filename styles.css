@@ -50,7 +50,10 @@ nav a:hover{background-color: #DAB3B3;
 .title{background-image: url(images/title-image.jpg);
 background-size: cover;
 background-position: center;
-padding: 5rem;
+padding-top: 15rem;
+padding-left: 4rem;
+padding-right: 4rem;
+padding-bottom: 5rem;
 text-align: center;}
 
 .title h2{margin-bottom: 0rem;
@@ -87,7 +90,7 @@ font-family: Solitreo;
 display: flex;
 align-items: center;
 justify-content: center;
-gap:5rem;
+gap:6rem;
 margin: 0rem 5rem 2rem 5rem;
 padding: 0rem 3rem 2rem 3rem;
 border-radius: 0rem 0rem 2rem 2rem 
