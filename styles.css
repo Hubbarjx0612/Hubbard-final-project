@@ -4,8 +4,7 @@ display: flex;
 align-items: last baseline;
 justify-content: space-between;
 padding: 0rem 2rem;
-font-family: Mogra;
-}
+font-family: Mogra;}
 header h1{font-size: 39pt;
 font-weight: 100;
 margin-bottom: 1rem;}
@@ -25,6 +24,8 @@ gap:1rem;}
 footer a{color:antiquewhite;}
 
 .since{font-family: Solitreo;}
+
+.taste{font-size: larger;}
 
 main, body{background-color: rgb(234, 221, 202);
 }
